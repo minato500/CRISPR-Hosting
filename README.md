@@ -189,6 +189,12 @@ chmod +x install.sh
 See [the complete installation walkthrough](docs/deployment/setup.md) for
 live-data prerequisites, backup behavior, verification, and troubleshooting.
 
+For a single Vercel Services deployment containing the main Vite dashboard,
+native FastAPI backend, and Neon PostgreSQL, see the
+[Vercel deployment guide](docs/deployment/vercel.md). PostgreSQL and Neo4j must
+use managed storage, and the long-running worker needs an always-on host or a
+Vercel Queues migration; Vercel does not run `docker-compose.yml` directly.
+
 ### Prerequisites
 
 - Docker Engine or Docker Desktop
