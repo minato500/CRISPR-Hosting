@@ -1,1 +1,0 @@
-"""CSPM connector package."""

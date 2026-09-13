@@ -1,1 +1,0 @@
-"""PostgreSQL-backed background worker."""
